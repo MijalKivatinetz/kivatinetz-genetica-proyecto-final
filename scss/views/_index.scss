@@ -1,0 +1,71 @@
+/*=======INDEX======*/
+ /*parrafo citogenetica*/
+  .cito{
+    margin: 0 20px 0 20px;
+    text-align: center;
+  }
+  /*carrusel*/
+  .carrusel-container{
+    margin: 20px;
+  }
+  /*ancho de las fotos index*/
+  .pami, .jerarquico{
+    width: $width-img;
+  }
+  
+  /*h2*/
+  .h2-cito{
+    border: solid 5px $color-borde-gris;
+    background-color: $color-fondo;
+  }
+  
+  /*seccion lab colegas*/
+  
+  .img-labcolegas{
+    width: $width-img;
+  }
+  .labcolegas-imagenes{
+    @include flex (flex,row,space-around);
+
+    align-items: center;
+  }
+  
+  .labcolegas-p{
+    margin: $lab-p-margin;
+    text-align: center;
+
+  }
+  
+  /*seccion obras sociales*/
+ 
+  .obrasSociales {
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+                    img{
+                             border: solid 2px $color-borde-gris;
+                             z-index: 1;
+                    }
+                    
+  }
+  /*cuadrados de deco*/
+  .cuadradounoindex{
+    @include cuadrado(200px,200px,$fondo-cuadrado,absolute,0);
+    top: 250px;
+    left:0;
+  }
+  .cuadradodosindex{
+    @include cuadrado(200px,200px,$fondo-cuadrado,absolute,0);
+    top: 100px;
+    left:230px;
+  }
+  .cuadradotresindex{
+    @include cuadrado(200px,200px,$fondo-cuadrado,absolute,0);
+    top: -100px;
+    left:0px;
+  }
