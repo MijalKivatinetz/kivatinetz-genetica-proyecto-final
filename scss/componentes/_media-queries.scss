@@ -1,11 +1,15 @@
 /*==========MEDIA QUERY========*/
 @media (max-width:1024px) {
-
+/*index*/
   .cuadradounoindex,
   .cuadradodosindex,
   .cuadradotresindex {
     display: none;
   }
+/*nosotros*/
+.mis{
+  margin-top: 100px;
+} 
 }
 
 @media (max-width: 972px) {
@@ -14,6 +18,10 @@
   .media-cuadrados {
     display: none;
   }
+  /*nosotros*/
+.mis{
+  margin-top: 200px;
+} 
 }
 
 @media (max-width: 768px) {

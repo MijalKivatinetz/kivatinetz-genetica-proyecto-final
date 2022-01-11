@@ -267,6 +267,9 @@ article ul li {
   display: flex;
   align-items: center; }
 
+.mis {
+  margin-top: 50px; }
+
 /*==========LABORATORIO========*/
 .laboratorio {
   display: flex;
@@ -453,15 +456,22 @@ article ul li {
 
 /*==========MEDIA QUERY========*/
 @media (max-width: 1024px) {
+  /*index*/
   .cuadradounoindex,
   .cuadradodosindex,
   .cuadradotresindex {
-    display: none; } }
+    display: none; }
+  /*nosotros*/
+  .mis {
+    margin-top: 100px; } }
 
 @media (max-width: 972px) {
   /*laboratorio*/
   .media-cuadrados {
-    display: none; } }
+    display: none; }
+  /*nosotros*/
+  .mis {
+    margin-top: 200px; } }
 
 @media (max-width: 768px) {
   /*h1*/
