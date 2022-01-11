@@ -162,6 +162,12 @@ footer {
   margin: 20px;
   text-align: center; }
 
+.labcolegas-mediaquery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 /*seccion obras sociales*/
 .obrasSociales {
   display: grid;
@@ -489,6 +495,10 @@ article ul li {
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 30px; }
+  .labcolegas-imagenes {
+    display: none; }
+  .parrafo-labcolegas {
+    display: none; }
   /*estudios*/
   .iframe {
     display: none; }
@@ -531,7 +541,10 @@ article ul li {
   .calidad p {
     display: none; }
   .calidad img {
-    width: 150px; } }
+    width: 150px; }
+  /*index*/
+  .labcolegas-mediaquery p {
+    display: none; } }
 
 @media (min-width: 426px) {
   /*estudios*/
@@ -544,4 +557,6 @@ article ul li {
     display: none; }
   /*index*/
   .obrasSociales {
-    margin: 100px 0 0 0; } }
+    margin: 100px 0 0 0; }
+  .labcolegas-mediaquery {
+    display: none; } }

@@ -61,9 +61,14 @@
     display: grid;
     grid-template-columns: auto;
     grid-row-gap: 30px;
-
   }
-
+  .labcolegas-imagenes{
+    display: none;
+  }
+  .parrafo-labcolegas{
+    display: none; 
+  }
+  
   /*estudios*/
   .iframe {
     display: none;
@@ -156,6 +161,12 @@
       width: 150px;
     }
   }
+  /*index*/
+  .labcolegas-mediaquery{
+    p{
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 426px) {
@@ -178,5 +189,8 @@
 
     margin: 100px 0 0 0;
 
+  }
+  .labcolegas-mediaquery{
+    display: none;
   }
 }
